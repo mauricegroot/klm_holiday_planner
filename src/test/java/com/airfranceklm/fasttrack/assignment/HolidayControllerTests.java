@@ -155,8 +155,8 @@ class HolidayControllerTests {
   }
 
   @AfterEach
-    public void cleanup() {
-        holidayRepository.deleteAll();
-    }
+  public void cleanup() {
+    holidayRepository.deleteAll();
+  }
 
 }
